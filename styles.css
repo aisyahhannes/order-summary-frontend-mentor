@@ -74,6 +74,12 @@ section {
     font-weight: 700;
 }
 
+.change:hover {
+    color: var(--bright_blue);
+    opacity: 0.7;
+    text-decoration: none;
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
@@ -91,12 +97,20 @@ button {
     box-shadow: 5px 10px 10px var(--pale_blue);
 }
 
+button:hover {
+    opacity: 0.7;
+}
+
 .cancel {
     color: var(--desaturated_blue);
     font-size: 15px;
     font-weight: 800;
     text-decoration: none;
     margin-top: 20px;
+}
+
+.cancel:hover {
+    color: var(--dark_blue);
 }
 
 h1 {
@@ -146,6 +160,4 @@ p {
     .music-text {
         gap: 10px;
     }
-
-
 }
